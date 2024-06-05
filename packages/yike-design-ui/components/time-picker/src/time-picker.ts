@@ -23,7 +23,7 @@ export interface TimeStep {
 export interface TimePickerProps {
   modelValue?: string;
   defaultValue?: string;
-  size?: InputSize;
+  size?: string;
   disabled?: boolean;
   style?: Partial<CSSStyleDeclaration> | null;
   type?: PickerType;
